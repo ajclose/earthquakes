@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/App.css';
 
 import EarthquakeInfo from './earthquakeinfo'
+import EarthquakeList from './earthquakelist'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
           <div className="my-header">Earthquakes!</div>
         </div>
         <EarthquakeInfo />
+        <EarthquakeList />
       </div>
     );
   }
